@@ -41,3 +41,4 @@
 .\objects\main.o: .\FreeRTOS\include\task.h
 .\objects\main.o: .\FreeRTOS\include\list.h
 .\objects\main.o: .\Hardware\LED.h
+.\objects\main.o: .\Hardware\Key.h
