@@ -809,7 +809,7 @@ I (.\Library\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Library\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Library\misc.h)(0x4D783BB4)
 F (.\Hardware\LED.h)(0x615AC609)()
-F (.\Hardware\Key.c)(0x69F5ACBF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\FreeRTOS\include -I .\FreeRTOS\port\RVDS\ARM_CM3 --no-multibyte-chars-ID:\Keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+F (.\Hardware\Key.c)(0x69F5CE72)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\FreeRTOS\include -I .\FreeRTOS\port\RVDS\ARM_CM3 --no-multibyte-chars-ID:\Keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
@@ -840,7 +840,7 @@ I (.\Library\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Library\misc.h)(0x4D783BB4)
 I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
-I (.\User\FreeRTOSConfig.h)(0x69F5AB6F)
+I (.\User\FreeRTOSConfig.h)(0x69F5CE72)
 I (.\Hardware\Serial.h)(0x62D3EBED)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
 I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
@@ -915,11 +915,11 @@ I (.\Library\misc.h)(0x4D783BB4)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E3CC2)
 F (.\Hardware\Serial.h)(0x62D3EBED)()
-F (.\User\main.c)(0x69F5ADBA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\FreeRTOS\include -I .\FreeRTOS\port\RVDS\ARM_CM3 --no-multibyte-chars-ID:\Keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\User\main.c)(0x69F741E8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\FreeRTOS\include -I .\FreeRTOS\port\RVDS\ARM_CM3 --no-multibyte-chars-ID:\Keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
-I (.\User\FreeRTOSConfig.h)(0x69F5AB6F)
+I (.\User\FreeRTOSConfig.h)(0x69F5CE72)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (.\Start\system_stm32f10x.h)(0x4D783CAA)
@@ -958,6 +958,7 @@ I (.\FreeRTOS\include\task.h)(0x573F3A16)
 I (.\FreeRTOS\include\list.h)(0x573F3A16)
 I (.\Hardware\LED.h)(0x615AC609)
 I (.\Hardware\Key.h)(0x615AC3EF)
+I (.\FreeRTOS\include\queue.h)(0x573F3A16)
 F (.\User\stm32f10x_conf.h)(0x4D99A59E)()
 F (.\User\stm32f10x_it.c)(0x69F4A5B2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\FreeRTOS\include -I .\FreeRTOS\port\RVDS\ARM_CM3 --no-multibyte-chars-ID:\Keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
 I (User\stm32f10x_it.h)(0x4D99A59E)
@@ -990,13 +991,13 @@ I (.\Library\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Library\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Library\misc.h)(0x4D783BB4)
 F (.\User\stm32f10x_it.h)(0x4D99A59E)()
-F (.\User\FreeRTOSConfig.h)(0x69F5AB6F)()
+F (.\User\FreeRTOSConfig.h)(0x69F5CE72)()
 F (.\FreeRTOS\port\MemMang\heap_4.c)(0x573F3A16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\FreeRTOS\include -I .\FreeRTOS\port\RVDS\ARM_CM3 --no-multibyte-chars-ID:\Keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
 I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
-I (.\User\FreeRTOSConfig.h)(0x69F5AB6F)
+I (.\User\FreeRTOSConfig.h)(0x69F5CE72)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (.\Start\system_stm32f10x.h)(0x4D783CAA)
@@ -1037,7 +1038,7 @@ F (.\FreeRTOS\port\RVDS\ARM_CM3\port.c)(0x573F3A17)(--c99 -c --cpu Cortex-M3 -D_
 I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
-I (.\User\FreeRTOSConfig.h)(0x69F5AB6F)
+I (.\User\FreeRTOSConfig.h)(0x69F5CE72)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (.\Start\system_stm32f10x.h)(0x4D783CAA)
@@ -1078,7 +1079,7 @@ F (.\FreeRTOS\src\croutine.c)(0x573F3A16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB 
 I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
-I (.\User\FreeRTOSConfig.h)(0x69F5AB6F)
+I (.\User\FreeRTOSConfig.h)(0x69F5CE72)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (.\Start\system_stm32f10x.h)(0x4D783CAA)
@@ -1121,7 +1122,7 @@ I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
 I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
-I (.\User\FreeRTOSConfig.h)(0x69F5AB6F)
+I (.\User\FreeRTOSConfig.h)(0x69F5CE72)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (.\Start\system_stm32f10x.h)(0x4D783CAA)
@@ -1165,7 +1166,7 @@ I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
 I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
-I (.\User\FreeRTOSConfig.h)(0x69F5AB6F)
+I (.\User\FreeRTOSConfig.h)(0x69F5CE72)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (.\Start\system_stm32f10x.h)(0x4D783CAA)
@@ -1207,7 +1208,7 @@ I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
 I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
-I (.\User\FreeRTOSConfig.h)(0x69F5AB6F)
+I (.\User\FreeRTOSConfig.h)(0x69F5CE72)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (.\Start\system_stm32f10x.h)(0x4D783CAA)
@@ -1251,7 +1252,7 @@ I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
 I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
-I (.\User\FreeRTOSConfig.h)(0x69F5AB6F)
+I (.\User\FreeRTOSConfig.h)(0x69F5CE72)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (.\Start\system_stm32f10x.h)(0x4D783CAA)
@@ -1295,7 +1296,7 @@ I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
 I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (D:\Keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
-I (.\User\FreeRTOSConfig.h)(0x69F5AB6F)
+I (.\User\FreeRTOSConfig.h)(0x69F5CE72)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (.\Start\system_stm32f10x.h)(0x4D783CAA)
