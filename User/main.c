@@ -117,7 +117,7 @@ static void Receive_Task(void* parameter)
 //      if(pdPASS == xReturn)
 //        printf("消息send_data1发送成功!\r\n");
 //    } 
-////		vTaskDelay(50);
+//		vTaskDelay(50);
 //    if( Key_GetNum()==2)
 //    {/* K2 被按下 */
 //      printf("发送消息send_data2！\r\n");
