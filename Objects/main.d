@@ -43,3 +43,4 @@
 .\objects\main.o: .\Hardware\LED.h
 .\objects\main.o: .\Hardware\Key.h
 .\objects\main.o: .\FreeRTOS\include\queue.h
+.\objects\main.o: .\FreeRTOS\include\semphr.h

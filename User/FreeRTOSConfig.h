@@ -92,6 +92,7 @@
 #define configTIMER_QUEUE_LENGTH                10
 // 确保支持静态内存分配
 #define configSUPPORT_STATIC_ALLOCATION    0
+#define configUSE_COUNTING_SEMAPHORES 1
 
 
 #define configUSE_PREEMPTION		1
